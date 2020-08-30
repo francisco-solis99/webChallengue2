@@ -19,18 +19,32 @@ body{
     display: grid;
     grid-template-columns: minmax(auto,1040px);
     justify-content: center;
+    justify-items: center;
+    align-content: center;
     padding: 10% 5%;
 }
 
 .hero__container{
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 265px 2fr auto;
     border-radius: 10px;
     background-color: white;
+    max-width: 400px;
 }
+
+.hero__img-conteiner{
+    border-radius: inherit;
+}
+
 
 .hero__img{
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.hero__post, .hero__user{
+    margin: 30px;
 }
