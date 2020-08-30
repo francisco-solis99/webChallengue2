@@ -4,8 +4,33 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Manrope', sans-serif;
+html{
     font-size: 62.5%;
 }
 
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.3rem;
+}
+
+.hero{
+    background-color: hsl(210, 46%, 95%);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(auto,1040px);
+    justify-content: center;
+    padding: 10% 5%;
+}
+
+.hero__container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hero__img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
