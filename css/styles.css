@@ -29,11 +29,12 @@ body{
     grid-template-rows: 265px 2fr auto;
     border-radius: 10px;
     background-color: white;
-    max-width: 400px;
+    max-width: 420px;
 }
 
 .hero__img-conteiner{
     border-radius: inherit;
+    margin-bottom: 20px;
 }
 
 
@@ -46,5 +47,22 @@ body{
 }
 
 .hero__post, .hero__user{
-    margin: 30px;
+    margin: 20px 30px;
+}
+/* 
+- Very Dark Grayish Blue: hsl(217, 19%, 35%)
+- Desaturated Dark Blue: hsl(214, 17%, 51%)
+- Grayish Blue: hsl(212, 23%, 69%) */
+
+.post__title{
+    font-size: 2rem;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.post__description{
+    color: hsl(214, 17%, 51%);
+    line-height: 25px ;
+    font-size: 1.6rem;
 }
