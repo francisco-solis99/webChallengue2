@@ -136,7 +136,7 @@ body{
 
     .hero__post{
         grid-area: description;
-        overflow: scroll;
+        /* overflow: scroll; */
     }
 
     .hero__user{
